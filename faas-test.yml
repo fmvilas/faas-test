@@ -3,7 +3,7 @@ provider:
   gateway: http://127.0.0.1:8080
 
 functions:
-  test:
+  faas-test:
     lang: node8-express
-    handler: ./test
-    image: test
+    handler: ./faas-test
+    image: faas-test
